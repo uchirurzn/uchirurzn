@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+    <title>Портфолио!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/boot.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="block-top">
+        <div class="block-left block-img"></div>
+        <div class="block-right">
+            <button id="langBtn"></button>
+            <button class="theme"></button>
+            <h1 id="name"></h1>
+            <span class="text-prof" id="text-prof"></span>
+            <h2 id="profile"></h2>
+            <p class="text-description" id="profileDesc"></p>
+            <a href="contacts.html" class="contacts-href btn-href"></a>
+            <div class="time-block">
+                <div class="time"></div>
+                <div id="typeBgBlock">
+                    <div class="range-block">
+                        <p id="redLabelBg">s</p>
+                        <input type="range" class="s" value="46" min="0" max="255" id="redBg">
+                    </div>
+                    
+                    <div class="range-block">
+                        <p id="greenLabelBg"></p>
+                        <input type="range" class="Green" value="47" min="0" max="255" id="greenBg">
+                    </div>
+                    
+                    <div class="range-block">
+                        <p id="blueLabelBg"></p>
+                        <input type="range" class="Blue" value="49" min="0" max="255" id="blueBg">
+                    </div>
+                </div>
+                
+                <div id="typeTextBlock" class="disabled">
+                    <div class="range-block">
+                        <p id="redLabelText"></p>
+                        <input type="range" class="red" value="255" min="0" max="255" id="redText">
+                    </div>
+                    
+                    <div class="range-block">
+                        <p id="greenLabelText"></p>
+                        <input type="range" class="Green" value="255" min="0" max="255" id="greenText">
+                    </div>
+                    
+                    <div class="range-block">
+                        <p id="blueLabelText"></p>
+                        <input type="range" class="Blue" value="255" min="0" max="255" id="blueText">
+                    </div>
+                </div>
+                <div class="type-btn">
+                    <input type="radio" id="typeBg" name="typebtn" checked>
+                    <label for="typeBg" id="labelBg"></label>
+                    <input type="radio" id="typeColor" name="typebtn">
+                    <label for="typeColor"  id="labelText"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-bottom">
+        <div class="block-left block-left-text">
+            <h2 id="contact"></h2>
+            <div>
+                <p class="title-left" id="phone"></p>
+                <p class="description-left">+123 456 78</p>
+            </div>
+            <div>
+                <p class="title-left">E-mail</p>
+                <p class="description-left">mail@mail.ru</p>
+            </div>
+            <div>
+                <p class="title-left" id="website"></p>
+                <p class="description-left">site.ru</p>
+            </div>
+            <div>
+                <p class="title-left" id="adress"></p>
+                <p class="description-left" id="adressName"></p>
+            </div>
+            <h2 id="education"></h2>
+            <div>
+                <p class="title-left">2014 - 2019</p>
+                <p class="description-left" id="edName1"></p>
+            </div>
+            <div>
+                <p class="title-left">2014 - 2016</p>
+                <p class="description-left"  id="edName2"></p>
+            </div>
+            <div>
+                <p class="title-left">2010 - 2014</p>
+                <p class="description-left"  id="edName3"></p>
+            </div>
+        </div>
+        <div class="block-right">
+            <h2 id="experiance"></h2>
+            <div class="text-description-block">
+                <div>
+                    <p class="description-title" id="expTitle1"></p>
+                    <p class="text-description" id="expDesc1"></p>
+                </div>
+                <div>
+                    <p class="description-title"  id="expTitle2">Senior UX Designer - 2018<br>Company Name/Location</p>
+                    <p class="text-description" id="expDesc2"></p>
+                </div>
+            </div>
+            <h2 id="skills"></h2>
+            <div class="text-description-block">
+                <div>
+                    <div class="skill-wrap">
+                        <p class="description-title">Photoshop</p>
+                        <p class="skill-line photoshop"></p>
+                    </div>
+                    <div class="skill-wrap">
+                        <p class="description-title">Illustrator</p>
+                        <p class="skill-line illustrator"></p>
+                    </div><div class="skill-wrap">
+                        <p class="description-title">Animation</p>
+                        <p class="skill-line animation"></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="skill-wrap">
+                        <p class="description-title">InDesign</p>
+                        <p class="skill-line indesign"></p>
+                    </div>
+                    <div class="skill-wrap">
+                        <p class="description-title">Blender</p>
+                        <p class="skill-line blender"></p>
+                    </div><div class="skill-wrap">
+                        <p class="description-title">Sketch</p>
+                        <p class="skill-line sketch"></p>
+                    </div>
+                </div>
+            </div>
+            <h2 id="reference"></h2>
+            <div class="text-description-block">
+                <div>
+                    <p class="text-description">Senior Designer</p>
+                    <p class="description-title">John Ander Smith</p>
+                    <p class="text-description">Company name here</p>
+                </div>
+                <div>
+                    <p class="text-description">Senior Designer</p>
+                    <p class="description-title">John Ander Smith</p>
+                    <p class="text-description">Company name here</p>
+                </div>
+            </div>
+            <h2 id="hobbies"></h2>
+            <div class="hobby-icon">
+                <div><img src="img/game.png" class="icon-img"></div>
+                <div><img src="img/guitar.png" class="icon-img"></div>
+                <div><img src="img/music.png" class="icon-img"></div>
+                <div><img src="img/travel.png" class="icon-img"></div>
+                <div><img src="img/photo.png" class="icon-img"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
